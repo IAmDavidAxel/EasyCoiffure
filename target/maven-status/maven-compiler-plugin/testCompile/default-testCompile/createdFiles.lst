@@ -1,0 +1,4 @@
+application\service\barber\BarberServiceTest.class
+domain\user\password\BasicPasswordPolicyTest.class
+api\barber\BarberResourceTest.class
+application\service\barber\BarberAssemblerTest.class

@@ -1,7 +1,9 @@
 package application.service.barber;
 
-import domain.barber.Barber;
-import resource.barber.BarberDto;
+import domain.user.barber.Barber;
+import api.barber.BarberDto;
+
+import java.util.List;
 
 public class BarberAssembler {
 
@@ -15,5 +17,9 @@ public class BarberAssembler {
 
 
 		return new Barber(name,lastName,password,address,username);
+	}
+
+	public List<BarberDto> assemble(List<Barber> barbers) {
+		return null;
 	}
 }

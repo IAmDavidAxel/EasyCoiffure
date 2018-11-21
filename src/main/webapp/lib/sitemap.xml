@@ -193,16 +193,16 @@
     <loc>https://docs.angularjs.org/error/$q/qcycle</loc>
   </url>
   <url>
-    <loc>https://docs.angularjs.org/error/$resource/badargs</loc>
+    <loc>https://docs.angularjs.org/error/$api/badargs</loc>
   </url>
   <url>
-    <loc>https://docs.angularjs.org/error/$resource/badcfg</loc>
+    <loc>https://docs.angularjs.org/error/$api/badcfg</loc>
   </url>
   <url>
-    <loc>https://docs.angularjs.org/error/$resource/badmember</loc>
+    <loc>https://docs.angularjs.org/error/$api/badmember</loc>
   </url>
   <url>
-    <loc>https://docs.angularjs.org/error/$resource/badname</loc>
+    <loc>https://docs.angularjs.org/error/$api/badname</loc>
   </url>
   <url>
     <loc>https://docs.angularjs.org/error/$rootScope/infdig</loc>
@@ -1153,7 +1153,7 @@
     <loc>https://docs.angularjs.org/api/ngResource/provider/$resourceProvider</loc>
   </url>
   <url>
-    <loc>https://docs.angularjs.org/api/ngResource/service/$resource</loc>
+    <loc>https://docs.angularjs.org/api/ngResource/service/$api</loc>
   </url>
   <url>
     <loc>https://docs.angularjs.org/api/ngRoute/directive/ngView</loc>
@@ -1228,7 +1228,7 @@
     <loc>https://docs.angularjs.org/error/$q</loc>
   </url>
   <url>
-    <loc>https://docs.angularjs.org/error/$resource</loc>
+    <loc>https://docs.angularjs.org/error/$api</loc>
   </url>
   <url>
     <loc>https://docs.angularjs.org/error/$rootScope</loc>

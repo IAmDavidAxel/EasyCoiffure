@@ -1,5 +1,5 @@
-angular.module('easyCoiffureApp.barberServices',[]).factory('Barber',function ($resource) {
-    return $resource('http://localhost:8080/api/barber/')
+angular.module('easycoiffure.barberServices',[]).factory('Barber',function ($resource) {
+    return $resource('/api/barber/')
     ,{
         save:{
             method: 'POST'

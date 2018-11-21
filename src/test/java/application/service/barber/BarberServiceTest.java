@@ -1,17 +1,17 @@
 package application.service.barber;
 
-import domain.barber.Barber;
-import domain.barber.BarberRepository;
+import domain.user.barber.Barber;
+import domain.user.barber.BarberRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
-import resource.barber.BarberDto;
+import api.barber.BarberDto;
+import org.mockito.runners.MockitoJUnitRunner;
 
-import java.util.concurrent.ExecutionException;
+import java.util.ArrayList;
+import java.util.List;
 
-import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.willReturn;
 import static org.mockito.Mockito.verify;
 
@@ -24,12 +24,20 @@ public class BarberServiceTest {
 	@Mock
 	private BarberRepository barberRepository;
 	private BarberDto barberDto;
+	private List<Barber> barbers;
 
+	@Mock
 	private Barber barber;
 
 	@Before
 	public void setUp(){
-		barberService = new BarberService(barberService,barberAssembler);
+
+		barbers = new ArrayList<>();
+
+		willReturn(barber).given(barberAssembler).assemble(barberDto);
+		willReturn("bob").given(barber).getName();
+
+		barberService = new BarberService(barberRepository,barberAssembler);
 	}
 
 	@Test
@@ -43,13 +51,29 @@ public class BarberServiceTest {
 	@Test
 	public void whenCreating_thenDelegateToRepositoryToSave()throws Exception{
 
-		willReturn(barber).given(barberAssembler).assemble(barberDto);
-
 		barberService.create(barberDto);
 
-		verify(barberRepository).save(barber);
+		verify(barberRepository).save(barber.getName(),barber);
 	}
 
+	@Test
+	public void whenFindingAllBarbers_thenDelegatingResearchingToTheRepo()throws Exception{
+
+
+		barberService.findAllBarbers();
+
+		verify(barberRepository).findAll();
+	}
+
+	@Test
+	public void whenFindingAllBarbers_thenDelegatesAssemblyToTheAssembler()throws Exception{
+
+		willReturn(barbers).given(barberRepository).findAll();
+
+		barberService.findAllBarbers();
+
+		verify(barberAssembler).assemble(barbers);
+	}
 
 
 }

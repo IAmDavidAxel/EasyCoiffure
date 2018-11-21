@@ -1,20 +1,35 @@
 package application.service.barber;
 
-import domain.barber.Barber;
-import resource.barber.BarberDto;
+import domain.user.barber.Barber;
+import api.barber.BarberDto;
+import domain.user.barber.BarberRepository;
+
+import java.util.List;
 
 public class BarberService {
 
-	private BarberService barberService;
+	private BarberRepository barberRepository;
 	private BarberAssembler barberAssembler;
 
-	public BarberService(BarberService barberService, BarberAssembler barberAssembler) {
-		this.barberService = barberService;
+	public BarberService(BarberRepository barberRepository, BarberAssembler barberAssembler) {
+		this.barberRepository = barberRepository;
 		this.barberAssembler = barberAssembler;
 	}
 
 	public void create(BarberDto barberDto) {
 
 		Barber barber = barberAssembler.assemble(barberDto);
+		barberRepository.save(barber.getName(),barber);
+
+	}
+
+	public List<BarberDto> findAllBarbers() {
+
+		List<Barber> barbers = barberRepository.findAll();
+
+
+		List<BarberDto> barberDtos = barberAssembler.assemble(barbers);
+
+		return barberDtos;
 	}
 }

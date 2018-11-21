@@ -1,4 +1,4 @@
-angular.module('easyCoiffureApp.barberControllers',[])
+angular.module('easycoiffure.barberControllers',[])
 .controller('BarberListController', function ($scope, $state , $window, Barber) {
 
     $scope.barbers = Barber.query();

@@ -1,0 +1,15 @@
+application\service\barber\BarberService.class
+domain\user\barber\BarberRepository.class
+domain\user\barber\Barber.class
+domain\user\password\BasicPasswordPolicy.class
+server\EasyCoiffureServer$1.class
+domain\user\password\PasswordPolicy.class
+server\context\Context.class
+application\service\barber\BarberAssembler.class
+server\context\UnknownModeServerException.class
+server\EasyCoiffureServer.class
+utility\PropertyConfiguration.class
+utility\ApplicationConfiguration.class
+server\context\DevelopmentContext.class
+api\barber\BarberResource.class
+api\barber\BarberDto.class

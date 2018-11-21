@@ -1,0 +1,15 @@
+.search-results li {
+	margin-bottom: 1rem;
+}
+
+.search-results li a {
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+}
+
+
+.search-results li.gray-out-flight a {
+	text-decoration: line-through;
+	color: gray;
+}
