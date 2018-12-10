@@ -2,59 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f72a82-66d7-4c89-85c3-899033806e9c" name="Default" comment="big squelettal commit early draft of the code">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/ClientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/EntityCreationServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/IllegalPasswordFormatServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/InvalidUserNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/TokenDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserProfileFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/IllegalPasswordFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/PasswordFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/TokenFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/application/service/client/ClientFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/UserProfileFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/token/TokenFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/client/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/client/ClientDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/client/ClientJsonResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/client/ClientJsonResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/client/ClientResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/client/ClientResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/service/client/ClientAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/password/BasicPasswordPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/BasicPasswordPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/password/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/password/PasswordPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/PasswordPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/PropertyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/PropertyConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/easyCoiffure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/easyCoiffure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/application/service/client/ClientServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/service/client/ClientServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/password/BasicPasswordPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/password/BasicPasswordPolicyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/client/ClientDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/client/ClientDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/client/ClientJsonResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/client/ClientJsonResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/client/ClientResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/client/ClientResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/service/client/ClientAssembler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/service/client/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/service/client/ClientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/UserProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/client/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/password/BasicPasswordPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/password/BasicPasswordPolicy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/password/Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/password/Password.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/password/PasswordPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/password/PasswordPolicy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/easyCoiffure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/easyCoiffure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utility/PropertyConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/PropertyConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/application/service/client/ClientServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application/service/client/ClientServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/TokenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/TokenTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/password/BasicPasswordPolicyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/password/BasicPasswordPolicyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/password/PasswordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/password/PasswordTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -198,7 +146,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/EasyCoiffureServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-867">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
@@ -463,14 +411,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -482,7 +422,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544470188738" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544470262318" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -686,7 +626,7 @@
       <workItem from="1543193097631" duration="412000" />
       <workItem from="1543199806232" duration="4660000" />
       <workItem from="1543205651056" duration="5951000" />
-      <workItem from="1544468231907" duration="1786000" />
+      <workItem from="1544468231907" duration="2040000" />
     </task>
     <task id="LOCAL-00001" summary="big squelettal commit early draft of the code">
       <created>1542793437436</created>
@@ -731,11 +671,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89240000" />
+    <option name="totallyTimeSpent" value="89494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -1171,7 +1110,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/EasyCoiffureServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-867">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
