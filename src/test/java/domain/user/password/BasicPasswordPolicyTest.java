@@ -41,4 +41,12 @@ public class BasicPasswordPolicyTest {
 
 	}
 
+	@Test
+	public void whenItsValid_thenReturnTrue()throws Exception{
+
+		boolean validPassword = basicPasswordPolicy.isValid(PASSWORD_MATCHING_PATTERN);
+
+		assertTrue(validPassword);
+	}
+
 }

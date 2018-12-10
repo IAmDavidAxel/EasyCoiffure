@@ -1,6 +1,7 @@
 package api.client;
 
 import application.service.client.ClientService;
+import application.service.exception.ServiceException;
 
 public class ClientJsonResource implements ClientResource {
 
@@ -13,7 +14,7 @@ public class ClientJsonResource implements ClientResource {
 	}
 
 	@Override
-	public void create(ClientDto clientDto) {
+	public void create(ClientDto clientDto) throws ServiceException {
 
 		clientService.create(clientDto);
 

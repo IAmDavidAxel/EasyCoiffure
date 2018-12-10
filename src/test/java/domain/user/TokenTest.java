@@ -5,7 +5,9 @@ import domain.user.token.Token;
 import domain.user.token.TokenExpirationPolicy;
 import domain.user.token.ValidationStatus;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
+import utility.ApplicationConfiguration;
 
 public class TokenTest {
 
@@ -19,12 +21,18 @@ public class TokenTest {
 	private Token anotherToken;
 	private DateTime dateTime;
 
+	@BeforeClass
+	public static void setUpConfig(){
+		ApplicationConfiguration.tokenLength = 60;
+		ApplicationConfiguration.tokenExpirationPolicy = "midterm";
 
+	}
 	@Before
 	public void setUp(){
 
 		token = new Token(dateTime);
 		token = new Token(TOKEN_VALUE,tokenCreationDate);
+
 	}
 
 	@Test

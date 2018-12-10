@@ -20,14 +20,14 @@ public class ClientServiceTest {
 	@Mock
 	private ClientRepository clientRepository;
 	@Mock
-	private ClientAssembler clientAssembler;
+	private ClientFactory clientFactory;
 	private ClientDto clientDto;
 	private Client client;
 
 	@Before
 	public void setUp(){
 
-		clientService = new ClientService(clientAssembler,clientRepository);
+		clientService = new ClientService(clientFactory,clientRepository);
 
 	}
 
@@ -36,12 +36,12 @@ public class ClientServiceTest {
 
 		clientService.create(clientDto);
 
-		verify(clientAssembler).assemble(clientDto);
+		verify(clientFactory).create(clientDto);
 	}
 
 	@Test
 	public void whenCreatingANewClient_thenDelegateSavingToTheRepo()throws Exception{
-		willReturn(client).given(clientAssembler).assemble(clientDto);
+		willReturn(client).given(clientFactory).create(clientDto);
 
 		clientService.create(clientDto);
 

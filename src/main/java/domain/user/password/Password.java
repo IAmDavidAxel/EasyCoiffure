@@ -8,6 +8,10 @@ public class Password {
 
 	private String passwordDigest;
 
+	public Password(String userPassword) {
+		generateFromString(userPassword);
+	}
+
 
 	public void generateFromString(String plainPassword) {
 		passwordDigest = BCrypt.hashpw(plainPassword,BCrypt.gensalt());

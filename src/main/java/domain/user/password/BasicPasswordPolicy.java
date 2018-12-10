@@ -18,6 +18,11 @@ public class BasicPasswordPolicy implements PasswordPolicy {
 	}
 
 	@Override
+	public boolean isValid(String password) {
+		return matchLength(password) && matchPatterns(password);
+	}
+
+	@Override
 	public boolean matchLength(String passwordLength) {
 		return passwordLength.length()>= MINIMUM_LENGTH_PASSWORD;
 	}

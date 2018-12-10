@@ -13,7 +13,7 @@ public class PasswordTest {
 
 	@Before
 	public void setUp(){
-		password =new Password();
+		password =new Password(PLAIN_PASSWORD);
 	}
 
 	@Test

@@ -2,122 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f72a82-66d7-4c89-85c3-899033806e9c" name="Default" comment="big squelettal commit early draft of the code">
-      <change afterPath="$PROJECT_DIR$/.idea/EasyCoiffure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/barber/BarberResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/client/ClientDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/client/ClientJsonResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/client/ClientResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/ClientAssembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/DateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/AccessLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/Credential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/CredentialFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/barber/BarberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/client/ClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/BasicPasswordPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/EasyCoiffureException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/PasswordPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/WrongPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/RandomAlphaNumericGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/UnknownTokenExpirationPolicyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/ValidationStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/htpp/CORSResponseFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/infrastructure/BarberInMemoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/EasyCoiffureServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/context/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/context/DevelopmentContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/context/UnknownModeServerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/context/barberContext/BarberResourceContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/PropertyConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ServiceAlreadyRegisteredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ServiceLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/UnknownResolvedServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/easyCoiffure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/barber/partials/barber.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/home/homeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/home/homeService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/home/partials/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html___jb_old___" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-animate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-animate.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-aria.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-aria.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-cookies.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-cookies.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-loader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-loader.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-message-format.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-message-format.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-messages.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-messages.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-parse-ext.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-parse-ext.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-resource.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-resource.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-route.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-route.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-sanitize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-sanitize.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-touch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular-touch.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/angular.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/partial/signUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/partial/userControllers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/client/ClientJsonResourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/application/service/client/ClientServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/password/BasicPasswordPolicyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/token/RandomAlphaNumericGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/infrastructure/BarberInMemoryRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasyCoiffure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EasyCoiffure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/service/barber/BarberAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/service/barber/BarberAssembler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/service/barber/BarberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/service/barber/BarberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/barber/Barber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/barber/Barber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/barber/BarberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resource/barber/BarberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/barber/BarberDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resource/barber/BarberResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/barber/BarberJsonResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/barber/barberController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/barber/barberController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/barber/barberService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/barber/barberService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/lib/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/application/service/barber/BarberAssemblerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/service/barber/BarberAssemblerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/application/service/barber/BarberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/service/barber/BarberServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resource/barber/BarberResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/barber/BarberJsonResourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/ClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/EntityCreationServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/IllegalPasswordFormatServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/client/InvalidUserNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/TokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserProfileFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/IllegalPasswordFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/PasswordFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/TokenFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/application/service/client/ClientFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/UserProfileFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/token/TokenFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/client/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/client/ClientDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/client/ClientJsonResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/client/ClientJsonResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/client/ClientResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/client/ClientResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/service/client/ClientAssembler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/password/BasicPasswordPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/BasicPasswordPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/password/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/password/PasswordPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/password/PasswordPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/PropertyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/PropertyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/easyCoiffure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/easyCoiffure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/application/service/client/ClientServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/service/client/ClientServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/password/BasicPasswordPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/password/BasicPasswordPolicyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/client/ClientDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/client/ClientDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/client/ClientJsonResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/client/ClientJsonResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/client/ClientResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/client/ClientResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/service/client/ClientAssembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/service/client/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/service/client/ClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/UserProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/password/BasicPasswordPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/password/BasicPasswordPolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/password/Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/password/Password.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/password/PasswordPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/password/PasswordPolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/easyCoiffure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/easyCoiffure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utility/PropertyConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/PropertyConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application/service/client/ClientServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application/service/client/ClientServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/TokenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/TokenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/password/BasicPasswordPolicyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/password/BasicPasswordPolicyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/password/PasswordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/password/PasswordTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,13 +71,18 @@
     <session id="-1008859205">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.120" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -148,11 +90,12 @@
           <entry key="css" value="2" />
           <entry key="html" value="8" />
           <entry key="iml" value="1" />
-          <entry key="java" value="88" />
+          <entry key="java" value="133" />
           <entry key="jpg" value="1" />
           <entry key="js" value="21" />
-          <entry key="properties" value="3" />
+          <entry key="properties" value="4" />
           <entry key="xml" value="3" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -161,31 +104,34 @@
           <entry key="HTML" value="8" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="88" />
+          <entry key="JAVA" value="133" />
           <entry key="JavaScript" value="21" />
-          <entry key="Properties" value="3" />
+          <entry key="Properties" value="4" />
           <entry key="XML" value="3" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="31" />
+          <entry key="dummy" value="49" />
           <entry key="html" value="1791" />
-          <entry key="java" value="8977" />
+          <entry key="java" value="13419" />
           <entry key="js" value="1246" />
-          <entry key="properties" value="119" />
+          <entry key="properties" value="272" />
           <entry key="txt" value="46" />
           <entry key="xml" value="43" />
+          <entry key="yml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1791" />
-          <entry key="JAVA" value="8977" />
+          <entry key="JAVA" value="13419" />
           <entry key="JavaScript" value="1246" />
-          <entry key="PLAIN_TEXT" value="77" />
-          <entry key="Properties" value="119" />
+          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="Properties" value="272" />
           <entry key="XML" value="43" />
+          <entry key="YAML" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -194,7 +140,11 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.php.composer.actions" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.remote" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.php.new.test" />
     </session>
@@ -202,71 +152,108 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Credential.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#419#489#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/Token.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/Password.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="86">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/CredentialFactory.java">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/client/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#26#27#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/client/ClientRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/EasyCoiffureServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="68">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/EntityCreationServiceException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/InvalidUserNameException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/application/service/client/ClientFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1207">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="102" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -277,55 +264,31 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="JavaScript File" />
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>T</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/utility/ServiceLocator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/barber/barberController.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/barber/partials/barber.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login/partial/signUp.html" />
-        <option value="$PROJECT_DIR$/src/main/java/htpp/CORSResponseFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/barber/barberService.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/app.css" />
-        <option value="$PROJECT_DIR$/src/main/java/server/EasyCoiffureServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/barber/BarberApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/barber/BarberResource.java" />
-        <option value="$PROJECT_DIR$/src/test/java/api/barber/BarberJsonResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/barber/BarberJsonResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/barber/BarberRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/application/service/barber/BarberServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/service/barber/BarberAssembler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/infrastructure/BarberInMemoryRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/service/barber/BarberService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/client/ClientResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/client/ClientDto.java" />
-        <option value="$PROJECT_DIR$/src/test/java/api/client/ClientJsonResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/service/client/ClientAssembler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/application/service/client/ClientServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/client/ClientRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/client/ClientJsonResource.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login/partial/userControllers.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/home/homeController.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/home/partials/home.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/home/homeService.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/app.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/password/EasyCoiffureException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/password/Password.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/password/WrongPasswordException.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/CredentialFactory.java" />
@@ -339,9 +302,43 @@
         <option value="$PROJECT_DIR$/src/test/java/domain/user/token/RandomAlphaNumericGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/token/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/DateTime.java" />
-        <option value="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/client/ClientRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/easyCoiffure.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/utility/PropertyConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserProfileFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/UserProfileFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/client/ClientDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/token/TokenFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/token/TokenFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/password/PasswordPolicy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/password/BasicPasswordPolicy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/password/Password.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/password/IllegalPasswordFormat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/password/PasswordFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/exception/ServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/client/IllegalPasswordFormatServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/client/ClientJsonResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/password/BasicPasswordPolicyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/password/PasswordFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/application/service/client/ClientAssemblerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/client/ClientAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/client/InvalidUserNameException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/client/ClientFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/client/EntityCreationServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/connection/ConnectionDto.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/connection/ConnectionResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/connection/TokenDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -362,9 +359,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="68" />
-    <option name="y" value="-17" />
-    <option name="width" value="692" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -441,6 +437,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -472,96 +469,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="htpp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="password" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -569,10 +482,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542793965864" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544470188738" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -581,11 +495,18 @@
     <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="application.service.connection" />
+      <recent name="api.connection" />
+      <recent name="application.service.client" />
+      <recent name="domain.user.password" />
+      <recent name="domain.user.token" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="application.service.client" />
       <recent name="domain.user.token" />
       <recent name="domain.user" />
       <recent name="domain.user.password" />
-      <recent name="application.service.client" />
       <recent name="api.client" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -595,12 +516,6 @@
       <recent name="domain.user" />
       <recent name="resource.barber" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp" />
-      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\css" />
-      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\lib" />
-      <recent name="C:\Users\David\git\EasyCoiffure\src\main\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\css" />
       <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\lib" />
@@ -609,12 +524,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="htpp" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="domain.user.token" />
-      <recent name="domain.user" />
-      <recent name="domain.user.password" />
-      <recent name="application.service.client" />
-      <recent name="domain.client" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp" />
+      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\css" />
+      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\lib" />
+      <recent name="C:\Users\David\git\EasyCoiffure\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -629,31 +543,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CredentialFactoryTest.whenCreatingACredential_thenAccessLevelIsCorrect">
+  <component name="RunManager" selected="Application.EasyCoiffureServer">
+    <configuration name="EasyCoiffureServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.EasyCoiffureServer" />
+      <module name="EasyCoiffure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CredentialFactoryTest.whenCreatingACredential_thenAccessLevelIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EasyCoiffure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain.user" />
-      <option name="MAIN_CLASS_NAME" value="domain.user.CredentialFactoryTest" />
-      <option name="METHOD_NAME" value="whenCreatingACredential_thenAccessLevelIsCorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordTest.givenAPassword_whenDigested_thenIsDifferentFromPlainOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EasyCoiffure" />
       <extension name="coverage">
         <pattern>
@@ -662,15 +573,32 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="domain.user.password" />
-      <option name="MAIN_CLASS_NAME" value="domain.user.password.PasswordTest" />
-      <option name="METHOD_NAME" value="givenAPassword_whenDigested_thenIsDifferentFromPlainOne" />
+      <option name="MAIN_CLASS_NAME" value="domain.user.password.BasicPasswordPolicyTest" />
+      <option name="METHOD_NAME" value="whenItsValid_thenReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordTest.givenAPassword_whenDigested_thenRealPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientFactoryTest.whenAssemblingForDomain_thenTheValuesAreEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EasyCoiffure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.service.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="application.service.client" />
+      <option name="MAIN_CLASS_NAME" value="application.service.client.ClientFactoryTest" />
+      <option name="METHOD_NAME" value="whenAssemblingForDomain_thenTheValuesAreEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EasyCoiffure" />
       <extension name="coverage">
         <pattern>
@@ -679,15 +607,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="domain.user.password" />
-      <option name="MAIN_CLASS_NAME" value="domain.user.password.PasswordTest" />
-      <option name="METHOD_NAME" value="givenAPassword_whenDigested_thenRealPassword" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="domain.user.password.PasswordFactoryTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordTest.whenPasswordsAreDifferent_thenThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EasyCoiffure" />
       <extension name="coverage">
         <pattern>
@@ -696,25 +622,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="domain.user.password" />
-      <option name="MAIN_CLASS_NAME" value="domain.user.password.PasswordTest" />
-      <option name="METHOD_NAME" value="whenPasswordsAreDifferent_thenThrowException" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomAlphaNumericGeneratorTest.givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EasyCoiffure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.user.token.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain.user.token" />
-      <option name="MAIN_CLASS_NAME" value="domain.user.token.RandomAlphaNumericGeneratorTest" />
-      <option name="METHOD_NAME" value="givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne" />
+      <option name="MAIN_CLASS_NAME" value="domain.user.password.PasswordFactoryTest" />
+      <option name="METHOD_NAME" value="whenCreatingUsingFactory_thenCreatesAPasswordObject" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -736,19 +645,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PasswordTest.givenAPassword_whenDigested_thenIsDifferentFromPlainOne" />
-      <item itemvalue="JUnit.PasswordTest.givenAPassword_whenDigested_thenRealPassword" />
-      <item itemvalue="JUnit.PasswordTest.whenPasswordsAreDifferent_thenThrowException" />
-      <item itemvalue="JUnit.RandomAlphaNumericGeneratorTest.givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne" />
-      <item itemvalue="JUnit.CredentialFactoryTest.whenCreatingACredential_thenAccessLevelIsCorrect" />
+      <item itemvalue="JUnit.PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" />
+      <item itemvalue="JUnit.BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" />
+      <item itemvalue="JUnit.PasswordFactoryTest" />
+      <item itemvalue="JUnit.ClientFactoryTest.whenAssemblingForDomain_thenTheValuesAreEquals" />
+      <item itemvalue="Application.EasyCoiffureServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CredentialFactoryTest.whenCreatingACredential_thenAccessLevelIsCorrect" />
-        <item itemvalue="JUnit.RandomAlphaNumericGeneratorTest.givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne" />
-        <item itemvalue="JUnit.PasswordTest.whenPasswordsAreDifferent_thenThrowException" />
-        <item itemvalue="JUnit.PasswordTest.givenAPassword_whenDigested_thenRealPassword" />
-        <item itemvalue="JUnit.PasswordTest.givenAPassword_whenDigested_thenIsDifferentFromPlainOne" />
+        <item itemvalue="Application.EasyCoiffureServer" />
+        <item itemvalue="JUnit.ClientFactoryTest.whenAssemblingForDomain_thenTheValuesAreEquals" />
+        <item itemvalue="JUnit.PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" />
+        <item itemvalue="JUnit.BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" />
+        <item itemvalue="JUnit.PasswordFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -772,7 +681,12 @@
       <workItem from="1541947493358" duration="2827000" />
       <workItem from="1542418562899" duration="56000" />
       <workItem from="1542418924038" duration="13958000" />
-      <workItem from="1542575903750" duration="11927000" />
+      <workItem from="1542575903750" duration="13023000" />
+      <workItem from="1542795082124" duration="4084000" />
+      <workItem from="1543193097631" duration="412000" />
+      <workItem from="1543199806232" duration="4660000" />
+      <workItem from="1543205651056" duration="5951000" />
+      <workItem from="1544468231907" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="big squelettal commit early draft of the code">
       <created>1542793437436</created>
@@ -785,39 +699,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PasswordTest_givenAPassword_whenDigested_thenIsDifferentFromPlainOne - 2018.11.18 at 17h 00m 55s.xml">
-      <configuration name="PasswordTest.givenAPassword_whenDigested_thenIsDifferentFromPlainOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PasswordTest_givenAPassword_whenDigested_thenRealPassword - 2018.11.18 at 17h 05m 47s.xml">
-      <configuration name="PasswordTest.givenAPassword_whenDigested_thenRealPassword" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PasswordTest_givenAPassword_whenDigested_thenRealPassword - 2018.11.18 at 17h 06m 14s.xml">
-      <configuration name="PasswordTest.givenAPassword_whenDigested_thenRealPassword" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PasswordTest_whenPasswordsAreDifferent_thenThrowException - 2018.11.18 at 17h 14m 59s.xml">
-      <configuration name="PasswordTest.whenPasswordsAreDifferent_thenThrowException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RandomAlphaNumericGeneratorTest_givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne - 2018.11.21 at 04h 17m 18s.xml">
-      <configuration name="RandomAlphaNumericGeneratorTest.givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RandomAlphaNumericGeneratorTest_givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne - 2018.11.21 at 04h 17m 44s.xml">
-      <configuration name="RandomAlphaNumericGeneratorTest.givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RandomAlphaNumericGeneratorTest_givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne - 2018.11.21 at 04h 18m 11s.xml">
-      <configuration name="RandomAlphaNumericGeneratorTest.givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RandomAlphaNumericGeneratorTest_givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne - 2018.11.21 at 04h 18m 13s.xml">
-      <configuration name="RandomAlphaNumericGeneratorTest.givenSequenceDifferentThanZero_whenGenerating_thenReturnAlphaNumericSequenceDifferentFromDefaultOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CredentialFactoryTest_whenCreatingACredential_thenAccessLevelIsCorrect - 2018.11.21 at 04h 32m 57s.xml">
       <configuration name="CredentialFactoryTest.whenCreatingACredential_thenAccessLevelIsCorrect" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CredentialFactoryTest_whenCreatingACredential_thenAccessLevelIsCorrect - 2018.11.21 at 04h 33m 17s.xml">
       <configuration name="CredentialFactoryTest.whenCreatingACredential_thenAccessLevelIsCorrect" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserProfileFactoryTest_whenCreatingANewProfile_thenItsInstanceOfUserProfile - 2018.11.25 at 21h 56m 17s.xml">
+      <configuration name="UserProfileFactoryTest.whenCreatingANewProfile_thenItsInstanceOfUserProfile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PasswordFactoryTest_whenCreatingUsingFactory_thenCreatesAPasswordObject - 2018.11.25 at 23h 41m 54s.xml">
+      <configuration name="PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasicPasswordPolicyTest_whenItsValid_thenReturnTrue - 2018.11.25 at 23h 49m 08s.xml">
+      <configuration name="BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PasswordFactoryTest - 2018.11.25 at 23h 49m 56s.xml">
+      <configuration name="PasswordFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasicPasswordPolicyTest_whenItsValid_thenReturnTrue - 2018.11.25 at 23h 50m 41s.xml">
+      <configuration name="BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PasswordFactoryTest_whenCreatingUsingFactory_thenCreatesAPasswordObject - 2018.11.25 at 23h 52m 11s.xml">
+      <configuration name="PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientAssemblerTest_whenAssemblingForDomain_thenTheValuesAreEquals - 2018.11.25 at 23h 58m 16s.xml">
+      <configuration name="ClientAssemblerTest.whenAssemblingForDomain_thenTheValuesAreEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientAssemblerTest_whenAssemblingForDomain_thenTheValuesAreEquals - 2018.11.25 at 23h 59m 30s.xml">
+      <configuration name="ClientAssemblerTest.whenAssemblingForDomain_thenTheValuesAreEquals" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71251000" />
+    <option name="totallyTimeSpent" value="89240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -829,20 +743,20 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25113463" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2806354" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327787" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5407654" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53770494" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3295082" />
-      <window_info anchor="bottom" id="EasyCoiffure" order="12" weight="0.14754099" />
+      <window_info anchor="bottom" id="EasyCoiffure" order="12" weight="0.46422628" />
       <window_info anchor="bottom" id="Problems" order="13" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32612312" />
@@ -869,237 +783,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="big squelettal commit early draft of the code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/easyCoiffure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/barber/Barber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/barber/barberService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/barber/BarberJsonResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api/barber/BarberJsonResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/barber/BarberAssembler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/infrastructure/BarberInMemoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/application/service/barber/BarberServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="62" column="32" lean-forward="true" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/barber/BarberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="e#670#709#1" expanded="true" />
-            <element signature="e#729#773#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/barber/BarberRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/barber/BarberResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/client/ClientDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/application/service/client/ClientServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/ClientAssembler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#511#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api/client/ClientJsonResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/client/ClientJsonResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/client/ClientResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/EasyCoiffureServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3130#3178#0" expanded="true" />
-            <element signature="e#3130#3178#0" expanded="true" />
-            <element signature="e#3182#3215#0" expanded="true" />
-            <element signature="e#3182#3215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/logo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home/partials/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/partial/signUp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home/homeService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/partial/userControllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/barber/barberController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1114,28 +797,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/password/BasicPasswordPolicyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/EasyCoiffureException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,10 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,12 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,55 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#425#797#0" expanded="true" />
-            <element signature="e#425#797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/password/PasswordTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#440#475#1" expanded="true" />
-            <element signature="e#466#494#0" expanded="true" />
-            <element signature="e#728#762#1" expanded="true" />
-            <element signature="e#754#782#0" expanded="true" />
-            <element signature="e#728#759#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/Password.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#497#530#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1230,29 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#478#553#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/ApplicationConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,18 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#297#330#1" expanded="true" />
-            <element signature="e#327#346#0" expanded="true" />
-            <element signature="e#381#398#1" expanded="true" />
-            <element signature="e#396#451#0" expanded="true" />
-            <element signature="e#396#451#0" expanded="true" />
-            <element signature="e#457#519#0" expanded="true" />
-            <element signature="e#478#518#0" expanded="true" />
-            <element signature="e#478#518#0" expanded="true" />
-            <element signature="e#457#519#0" expanded="true" />
-            <element signature="e#545#569#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,36 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#204#230#0" expanded="true" />
-            <element signature="e#204#230#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1316,53 +857,322 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#535#611#1" expanded="true" />
-            <element signature="e#665#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Credential.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/CredentialFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#26#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/client/ClientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utility/ApplicationConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/easyCoiffure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utility/PropertyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="38" column="113" selection-start-line="38" selection-start-column="113" selection-end-line="38" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/CredentialFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Credential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/UserProfileFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/client/ClientDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/TokenFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/password/PasswordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#501#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserProfileFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/token/TokenFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/IllegalPasswordFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/exception/ServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/IllegalPasswordFormatServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/client/ClientJsonResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/PasswordPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/BasicPasswordPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/password/BasicPasswordPolicyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/PasswordFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/password/PasswordFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/connection/ConnectionDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/TokenDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/ClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/EntityCreationServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/InvalidUserNameException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/application/service/client/ClientFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="102" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#419#489#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/Password.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/EasyCoiffureServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>

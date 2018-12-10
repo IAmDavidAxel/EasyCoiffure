@@ -1,5 +1,7 @@
 package api.client;
 
+import application.service.exception.ServiceException;
+
 import javax.ws.rs.Consumes;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -11,7 +13,7 @@ public interface ClientResource {
 	@Path("/signup")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	void create(ClientDto clientDto);
+	void create(ClientDto clientDto) throws ServiceException;
 
 
 }
