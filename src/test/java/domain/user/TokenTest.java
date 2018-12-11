@@ -14,6 +14,7 @@ public class TokenTest {
 	private static final String TOKEN_VALUE = "";
 
 	private static final long tokenCreationDate = 20180523L;
+	private static final String ANOTHER_TOKEN_VALUE = "";
 
 	private ValidationStatus validationStatus;
 	private TokenExpirationPolicy tokenExpirationPolicy;
@@ -39,6 +40,16 @@ public class TokenTest {
 	public void whenGenerating_thenStatusIsValidAndTokenValueIsAlphaNumeric(){
 
 		token.generate();
+
+	}
+
+	@Test(expected =  IllegalTokenValidationException.class)
+	public void whenVerifyingTheValueAndItsDifferent_thenThrowException()throws Exception{
+
+		token.generate();
+
+		token.verify(ANOTHER_TOKEN_VALUE);
+
 
 	}
 

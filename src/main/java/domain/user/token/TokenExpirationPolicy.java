@@ -42,4 +42,8 @@ public enum  TokenExpirationPolicy {
 
 		return tokenExpirationPolicy;
 	}
+
+	public long expiresIn() {
+		return expiresIn;
+	}
 }

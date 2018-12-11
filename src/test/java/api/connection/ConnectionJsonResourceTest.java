@@ -32,4 +32,12 @@ public class ConnectionJsonResourceTest {
 		verify(authenticationService).authenticate(connectionDto);
 
 	}
+
+	@Test
+	public void whenLogingOut_thenDelagateToTheService()throws Exception{
+
+		connectionJsonResource.logout(connectionDto);
+
+		verify(authenticationService).logout(connectionDto);
+	}
 }

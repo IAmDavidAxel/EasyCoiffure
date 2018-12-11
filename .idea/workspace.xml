@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f72a82-66d7-4c89-85c3-899033806e9c" name="Default" comment="big squelettal commit early draft of the code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/NotAuthenticatedServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/PersistenceServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/SecurityAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/IllegalTokenValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/MismatchedPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/credential/CredentialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/Base64TokenEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/TokenEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/infrastructure/ObjectNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/infrastructure/exception/PersistenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/application/service/connection/AuthenticationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/application/service/connection/SecurityAssemblerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/CredentialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/token/Base64TokenEncoderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/Credential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/Credential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/token/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application/service/client/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/service/client/ClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/Credential.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/Credential.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/token/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/token/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/token/TokenExpirationPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/token/TokenExpirationPolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.service.barber.BarberAssemblerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-application.service.barber.BarberAssemblerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.service.barber.BarberServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-application.service.barber.BarberServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-domain.user.password.BasicPasswordPolicyTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-domain.user.password.BasicPasswordPolicyTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/application.service.barber.BarberServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/application.service.barber.BarberServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/CredentialFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/CredentialFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/TokenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/TokenTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +71,7 @@
           <entry key="css" value="2" />
           <entry key="html" value="8" />
           <entry key="iml" value="1" />
-          <entry key="java" value="133" />
+          <entry key="java" value="164" />
           <entry key="jpg" value="1" />
           <entry key="js" value="21" />
           <entry key="properties" value="4" />
@@ -52,7 +85,7 @@
           <entry key="HTML" value="8" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="133" />
+          <entry key="JAVA" value="164" />
           <entry key="JavaScript" value="21" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="3" />
@@ -63,7 +96,7 @@
         <counts>
           <entry key="dummy" value="49" />
           <entry key="html" value="1791" />
-          <entry key="java" value="13419" />
+          <entry key="java" value="17430" />
           <entry key="js" value="1246" />
           <entry key="properties" value="272" />
           <entry key="txt" value="46" />
@@ -74,7 +107,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1791" />
-          <entry key="JAVA" value="13419" />
+          <entry key="JAVA" value="17430" />
           <entry key="JavaScript" value="1246" />
           <entry key="PLAIN_TEXT" value="95" />
           <entry key="Properties" value="272" />
@@ -100,45 +133,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/application/service/connection/AuthenticationServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+            <state relative-caret-position="324">
+              <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#419#489#1" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#1510#1569#0" expanded="true" />
+                <element signature="e#1626#1680#1" expanded="true" />
+                <element signature="e#1684#1734#1" expanded="true" />
+                <element signature="e#2125#2177#1" expanded="true" />
+                <element signature="e#2181#2248#1" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/Password.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -146,62 +154,124 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/EasyCoiffureServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867">
+            <state relative-caret-position="68">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/ClientService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/EntityCreationServiceException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/client/InvalidUserNameException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/application/service/client/ClientFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/SecurityAssembler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="7" column="102" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="102" />
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+              <folding>
+                <element signature="e#146#203#1" expanded="true" />
+                <element signature="e#187#218#0" expanded="true" />
+                <element signature="e#187#218#0" expanded="true" />
+                <element signature="e#222#252#0" expanded="true" />
+                <element signature="e#222#252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/application/service/connection/SecurityAssemblerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#397#434#1" expanded="true" />
+                <element signature="e#611#630#0" expanded="true" />
+                <element signature="e#659#681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+              <folding>
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1313#1344#1" expanded="true" />
+                <element signature="e#1561#1641#1" expanded="true" />
+                <element signature="e#1610#1638#0" expanded="true" />
+                <element signature="e#1645#1674#1" expanded="true" />
+                <element signature="e#1662#1686#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/PersistenceServiceException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Credential.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+              <folding>
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/Token.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1292#1327#0" expanded="true" />
+                <element signature="e#1292#1327#0" expanded="true" />
+                <element signature="e#1292#1327#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/CredentialTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,9 +284,9 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Enum" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -236,27 +306,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/password/EasyCoiffureException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/password/WrongPasswordException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/Token.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/CredentialFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/Credential.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/AccessLevel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/ValidationStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/token/UnknownTokenExpirationPolicyException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utility/ApplicationConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/token/RandomAlphaNumericGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/domain/user/token/RandomAlphaNumericGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/token/Token.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/DateTime.java" />
-        <option value="$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/client/ClientRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/easyCoiffure.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/utility/PropertyConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserProfileFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserProfile.java" />
         <option value="$PROJECT_DIR$/src/test/java/domain/user/UserProfileFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/client/ClientDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/token/TokenFactory.java" />
@@ -282,11 +331,32 @@
         <option value="$PROJECT_DIR$/src/main/java/application/service/client/EntityCreationServiceException.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/connection/ConnectionDto.java" />
         <option value="$PROJECT_DIR$/src/test/java/api/connection/ConnectionResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/service/connection/TokenDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/credential/CredentialRepositoty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/infrastructure/ObjectNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/connection/NotAuthenticatedServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/connection/ConnectionResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/CredentialTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/MismatchedPasswordException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/IllegalTokenValidationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/token/Token.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/Credential.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/credential/CredentialRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/infrastructure/exception/PersistenceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/connection/PersistenceServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/token/TokenEncoder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/user/token/Base64TokenEncoderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/token/Base64TokenEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/application/service/connection/SecurityAssemblerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/connection/SecurityAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/application/service/connection/AuthenticationServiceTest.java" />
       </list>
     </option>
   </component>
@@ -411,6 +481,65 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="barber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyCoiffure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCoiffure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -422,32 +551,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544470262318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544490345520" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="application.service.connection" />
-      <recent name="api.connection" />
-      <recent name="application.service.client" />
-      <recent name="domain.user.password" />
-      <recent name="domain.user.token" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="application.service.client" />
+      <recent name="application.service.connection" />
       <recent name="domain.user.token" />
       <recent name="domain.user" />
+      <recent name="application.service.client" />
       <recent name="domain.user.password" />
-      <recent name="api.client" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -455,6 +577,12 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="domain.user" />
       <recent name="resource.barber" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp" />
+      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\css" />
+      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\lib" />
+      <recent name="C:\Users\David\git\EasyCoiffure\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\css" />
@@ -464,11 +592,12 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="htpp" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp" />
-      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\css" />
-      <recent name="C:\Users\David\git\EasyCoiffure\src\main\webapp\lib" />
-      <recent name="C:\Users\David\git\EasyCoiffure\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="domain.user.token" />
+      <recent name="application.service.connection" />
+      <recent name="infrastructure.exception" />
+      <recent name="domain.user" />
+      <recent name="api.connection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -504,67 +633,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthenticationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EasyCoiffure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.user.password.*" />
+          <option name="PATTERN" value="application.service.connection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="domain.user.password" />
-      <option name="MAIN_CLASS_NAME" value="domain.user.password.BasicPasswordPolicyTest" />
-      <option name="METHOD_NAME" value="whenItsValid_thenReturnTrue" />
+      <option name="PACKAGE_NAME" value="application.service.connection" />
+      <option name="MAIN_CLASS_NAME" value="application.service.connection.AuthenticationServiceTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationServiceTest.whenLoggingInSucceeded_thenReturnTokenInformationViaAssembler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EasyCoiffure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.service.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="application.service.connection" />
+      <option name="MAIN_CLASS_NAME" value="application.service.connection.AuthenticationServiceTest" />
+      <option name="METHOD_NAME" value="whenLoggingInSucceeded_thenReturnTokenInformationViaAssembler" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientFactoryTest.whenAssemblingForDomain_thenTheValuesAreEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthenticationServiceTest.whenLoggingIn_thenDelagateEncodingToTheEncoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EasyCoiffure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="application.service.client.*" />
+          <option name="PATTERN" value="application.service.connection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="application.service.client" />
-      <option name="MAIN_CLASS_NAME" value="application.service.client.ClientFactoryTest" />
-      <option name="METHOD_NAME" value="whenAssemblingForDomain_thenTheValuesAreEquals" />
+      <option name="PACKAGE_NAME" value="application.service.connection" />
+      <option name="MAIN_CLASS_NAME" value="application.service.connection.AuthenticationServiceTest" />
+      <option name="METHOD_NAME" value="whenLoggingIn_thenDelagateEncodingToTheEncoder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecurityAssemblerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EasyCoiffure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.user.password.*" />
+          <option name="PATTERN" value="application.service.connection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="domain.user.password" />
-      <option name="MAIN_CLASS_NAME" value="domain.user.password.PasswordFactoryTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EasyCoiffure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.user.password.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain.user.password" />
-      <option name="MAIN_CLASS_NAME" value="domain.user.password.PasswordFactoryTest" />
-      <option name="METHOD_NAME" value="whenCreatingUsingFactory_thenCreatesAPasswordObject" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="application.service.connection" />
+      <option name="MAIN_CLASS_NAME" value="application.service.connection.SecurityAssemblerTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -585,19 +712,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" />
-      <item itemvalue="JUnit.BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" />
-      <item itemvalue="JUnit.PasswordFactoryTest" />
-      <item itemvalue="JUnit.ClientFactoryTest.whenAssemblingForDomain_thenTheValuesAreEquals" />
+      <item itemvalue="JUnit.AuthenticationServiceTest" />
+      <item itemvalue="JUnit.AuthenticationServiceTest.whenLoggingIn_thenDelagateEncodingToTheEncoder" />
+      <item itemvalue="JUnit.SecurityAssemblerTest" />
+      <item itemvalue="JUnit.AuthenticationServiceTest.whenLoggingInSucceeded_thenReturnTokenInformationViaAssembler" />
       <item itemvalue="Application.EasyCoiffureServer" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.EasyCoiffureServer" />
-        <item itemvalue="JUnit.ClientFactoryTest.whenAssemblingForDomain_thenTheValuesAreEquals" />
-        <item itemvalue="JUnit.PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" />
-        <item itemvalue="JUnit.BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" />
-        <item itemvalue="JUnit.PasswordFactoryTest" />
+        <item itemvalue="JUnit.AuthenticationServiceTest" />
+        <item itemvalue="JUnit.AuthenticationServiceTest.whenLoggingInSucceeded_thenReturnTokenInformationViaAssembler" />
+        <item itemvalue="JUnit.SecurityAssemblerTest" />
+        <item itemvalue="JUnit.AuthenticationServiceTest.whenLoggingIn_thenDelagateEncodingToTheEncoder" />
       </list>
     </recent_temporary>
   </component>
@@ -626,7 +753,7 @@
       <workItem from="1543193097631" duration="412000" />
       <workItem from="1543199806232" duration="4660000" />
       <workItem from="1543205651056" duration="5951000" />
-      <workItem from="1544468231907" duration="2040000" />
+      <workItem from="1544468231907" duration="13394000" />
     </task>
     <task id="LOCAL-00001" summary="big squelettal commit early draft of the code">
       <created>1542793437436</created>
@@ -639,42 +766,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CredentialFactoryTest_whenCreatingACredential_thenAccessLevelIsCorrect - 2018.11.21 at 04h 32m 57s.xml">
-      <configuration name="CredentialFactoryTest.whenCreatingACredential_thenAccessLevelIsCorrect" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceTest - 2018.12.10 at 16h 56m 02s.xml">
+      <configuration name="AuthenticationServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CredentialFactoryTest_whenCreatingACredential_thenAccessLevelIsCorrect - 2018.11.21 at 04h 33m 17s.xml">
-      <configuration name="CredentialFactoryTest.whenCreatingACredential_thenAccessLevelIsCorrect" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceTest_whenLoggingIn_DelegateFindingOfCredentialToTheRepo - 2018.12.10 at 16h 59m 19s.xml">
+      <configuration name="AuthenticationServiceTest.whenLoggingIn_DelegateFindingOfCredentialToTheRepo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserProfileFactoryTest_whenCreatingANewProfile_thenItsInstanceOfUserProfile - 2018.11.25 at 21h 56m 17s.xml">
-      <configuration name="UserProfileFactoryTest.whenCreatingANewProfile_thenItsInstanceOfUserProfile" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceTest_whenloggingIn_thenVerifyPassword - 2018.12.10 at 17h 04m 14s.xml">
+      <configuration name="AuthenticationServiceTest.whenloggingIn_thenVerifyPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordFactoryTest_whenCreatingUsingFactory_thenCreatesAPasswordObject - 2018.11.25 at 23h 41m 54s.xml">
-      <configuration name="PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceTest - 2018.12.10 at 17h 04m 24s.xml">
+      <configuration name="AuthenticationServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicPasswordPolicyTest_whenItsValid_thenReturnTrue - 2018.11.25 at 23h 49m 08s.xml">
-      <configuration name="BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceTest_whenLoggingIn_thenDelagateEncodingToTheEncoder - 2018.12.10 at 17h 05m 26s.xml">
+      <configuration name="AuthenticationServiceTest.whenLoggingIn_thenDelagateEncodingToTheEncoder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordFactoryTest - 2018.11.25 at 23h 49m 56s.xml">
-      <configuration name="PasswordFactoryTest" configurationId="JUnit" />
+    <history-entry file="SecurityAssemblerTest - 2018.12.10 at 17h 28m 31s.xml">
+      <configuration name="SecurityAssemblerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicPasswordPolicyTest_whenItsValid_thenReturnTrue - 2018.11.25 at 23h 50m 41s.xml">
-      <configuration name="BasicPasswordPolicyTest.whenItsValid_thenReturnTrue" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceTest - 2018.12.10 at 17h 29m 08s.xml">
+      <configuration name="AuthenticationServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordFactoryTest_whenCreatingUsingFactory_thenCreatesAPasswordObject - 2018.11.25 at 23h 52m 11s.xml">
-      <configuration name="PasswordFactoryTest.whenCreatingUsingFactory_thenCreatesAPasswordObject" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceTest_whenLoggingInSucceeded_thenReturnTokenInformationViaAssembler - 2018.12.10 at 17h 34m 11s.xml">
+      <configuration name="AuthenticationServiceTest.whenLoggingInSucceeded_thenReturnTokenInformationViaAssembler" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientAssemblerTest_whenAssemblingForDomain_thenTheValuesAreEquals - 2018.11.25 at 23h 58m 16s.xml">
-      <configuration name="ClientAssemblerTest.whenAssemblingForDomain_thenTheValuesAreEquals" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceTest - 2018.12.10 at 17h 36m 11s.xml">
+      <configuration name="AuthenticationServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientAssemblerTest_whenAssemblingForDomain_thenTheValuesAreEquals - 2018.11.25 at 23h 59m 30s.xml">
-      <configuration name="ClientAssemblerTest.whenAssemblingForDomain_thenTheValuesAreEquals" configurationId="JUnit" />
+    <history-entry file="AuthenticationServiceTest - 2018.12.10 at 17h 39m 06s.xml">
+      <configuration name="AuthenticationServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89494000" />
+    <option name="totallyTimeSpent" value="100848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -682,15 +810,15 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2806354" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.27458397" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327787" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53770494" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51913476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -722,146 +850,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="big squelettal commit early draft of the code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="105" selection-start-line="3" selection-start-column="105" selection-end-line="3" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/EasyCoiffureException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/WrongPasswordException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/AccessLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/ValidationStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/UnknownTokenExpirationPolicyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/token/RandomAlphaNumericGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/RandomAlphaNumericGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/DateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/client/ClientRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/ApplicationConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/easyCoiffure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/PropertyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="38" column="113" selection-start-line="38" selection-start-column="113" selection-end-line="38" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/CredentialFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Credential.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/UserProfileFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -925,6 +913,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#40#67#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,13 +976,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/connection/ConnectionDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,23 +1012,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1079,28 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#419#489#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/Password.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1108,9 +1066,277 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/connection/ConnectionDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/infrastructure/ObjectNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/NotAuthenticatedServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/password/Password.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/connection/ConnectionResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/MismatchedPasswordException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/IllegalTokenValidationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/CredentialTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1292#1327#0" expanded="true" />
+            <element signature="e#1292#1327#0" expanded="true" />
+            <element signature="e#1292#1327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Credential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding>
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/infrastructure/exception/PersistenceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/PersistenceServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/TokenEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/user/token/Base64TokenEncoderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#500#571#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/credential/CredentialRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="11" column="78" lean-forward="true" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/Base64TokenEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/SecurityAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="e#146#203#1" expanded="true" />
+            <element signature="e#187#218#0" expanded="true" />
+            <element signature="e#187#218#0" expanded="true" />
+            <element signature="e#222#252#0" expanded="true" />
+            <element signature="e#222#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/application/service/connection/SecurityAssemblerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#397#434#1" expanded="true" />
+            <element signature="e#611#630#0" expanded="true" />
+            <element signature="e#659#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1313#1344#1" expanded="true" />
+            <element signature="e#1561#1641#1" expanded="true" />
+            <element signature="e#1610#1638#0" expanded="true" />
+            <element signature="e#1645#1674#1" expanded="true" />
+            <element signature="e#1662#1686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/application/service/connection/AuthenticationServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#1510#1569#0" expanded="true" />
+            <element signature="e#1626#1680#1" expanded="true" />
+            <element signature="e#1684#1734#1" expanded="true" />
+            <element signature="e#2125#2177#1" expanded="true" />
+            <element signature="e#2181#2248#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/EasyCoiffureServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
+        <state relative-caret-position="68">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
@@ -1143,7 +1369,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Infinitest</last-edited>
+          <last-edited>Infinitest (EasyCoiffure)|Infinitest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

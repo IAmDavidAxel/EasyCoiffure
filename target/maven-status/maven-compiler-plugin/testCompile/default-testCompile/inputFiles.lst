@@ -1,7 +1,9 @@
+C:\Users\David\git\EasyCoiffure\src\test\java\application\service\connection\SecurityAssemblerTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\application\service\barber\BarberAssemblerTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\token\TokenFactoryTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\password\PasswordTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\token\RandomAlphaNumericGeneratorTest.java
+C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\CredentialTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\api\connection\ConnectionJsonResourceTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\password\BasicPasswordPolicyTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\TokenTest.java
@@ -9,7 +11,9 @@ C:\Users\David\git\EasyCoiffure\src\test\java\infrastructure\BarberInMemoryRepos
 C:\Users\David\git\EasyCoiffure\src\test\java\application\service\barber\BarberServiceTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\api\barber\BarberJsonResourceTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\api\client\ClientJsonResourceTest.java
+C:\Users\David\git\EasyCoiffure\src\test\java\application\service\connection\AuthenticationServiceTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\CredentialFactoryTest.java
+C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\token\Base64TokenEncoderTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\password\PasswordFactoryTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\application\service\client\ClientServiceTest.java
 C:\Users\David\git\EasyCoiffure\src\test\java\domain\user\UserProfileFactoryTest.java
