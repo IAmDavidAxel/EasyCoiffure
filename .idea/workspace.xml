@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f72a82-66d7-4c89-85c3-899033806e9c" name="Default" comment="big squelettal commit early draft of the code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/NotAuthenticatedServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/PersistenceServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/SecurityAssembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/IllegalTokenValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/MismatchedPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/credential/CredentialRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/Base64TokenEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/TokenEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/infrastructure/ObjectNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/infrastructure/exception/PersistenceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/application/service/connection/AuthenticationServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/application/service/connection/SecurityAssemblerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/CredentialTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/user/token/Base64TokenEncoderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/connection/ConnectionJsonResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/service/connection/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/Credential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/Credential.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/token/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/token/TokenExpirationPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/connection/ConnectionJsonResourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/CredentialFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/user/TokenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/service/client/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/service/client/ClientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/Credential.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/Credential.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/token/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/token/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/token/TokenExpirationPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/user/token/TokenExpirationPolicy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.service.barber.BarberAssemblerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-application.service.barber.BarberAssemblerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.service.barber.BarberServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-application.service.barber.BarberServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-domain.user.password.BasicPasswordPolicyTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-domain.user.password.BasicPasswordPolicyTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/application.service.barber.BarberServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/application.service.barber.BarberServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/CredentialFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/CredentialFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/user/TokenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/user/TokenTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -551,7 +518,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544490345520" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544490553504" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -753,7 +720,7 @@
       <workItem from="1543193097631" duration="412000" />
       <workItem from="1543199806232" duration="4660000" />
       <workItem from="1543205651056" duration="5951000" />
-      <workItem from="1544468231907" duration="13394000" />
+      <workItem from="1544468231907" duration="13816000" />
     </task>
     <task id="LOCAL-00001" summary="big squelettal commit early draft of the code">
       <created>1542793437436</created>
@@ -766,9 +733,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthenticationServiceTest - 2018.12.10 at 16h 56m 02s.xml">
-      <configuration name="AuthenticationServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AuthenticationServiceTest_whenLoggingIn_DelegateFindingOfCredentialToTheRepo - 2018.12.10 at 16h 59m 19s.xml">
       <configuration name="AuthenticationServiceTest.whenLoggingIn_DelegateFindingOfCredentialToTheRepo" configurationId="JUnit" />
     </history-entry>
@@ -796,9 +760,12 @@
     <history-entry file="AuthenticationServiceTest - 2018.12.10 at 17h 39m 06s.xml">
       <configuration name="AuthenticationServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AuthenticationServiceTest - 2018.12.10 at 20h 05m 39s.xml">
+      <configuration name="AuthenticationServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100848000" />
+    <option name="totallyTimeSpent" value="101270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -810,15 +777,15 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.27458397" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.27458397" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327787" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51913476" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5180328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
