@@ -1,6 +1,8 @@
 package domain.user;
 
+import domain.DateTime;
 import domain.user.password.Password;
+import domain.user.password.WrongPasswordException;
 import domain.user.token.Token;
 
 public class Credential {
@@ -25,6 +27,21 @@ public class Credential {
 	}
 
 	public Token getToken() {
+		return token;
+	}
+
+	public void verifyPassword(String password) throws WrongPasswordException {
+
+		this.password.verify(password);
+	}
+
+	public Token generateToken() {
+
+		if (token == null){
+			this.token =new Token(new DateTime());
+		}
+
+		this.token.generate();
 		return token;
 	}
 }

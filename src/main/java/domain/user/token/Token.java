@@ -2,6 +2,7 @@ package domain.user.token;
 
 
 import domain.DateTime;
+import domain.user.IllegalTokenValidationException;
 import utility.ApplicationConfiguration;
 
 public class Token {
@@ -46,6 +47,15 @@ public class Token {
 
 		validationStatus =ValidationStatus.VALID;
 		createdAt.setToCurrentTime();
+
+	}
+
+
+	public void verify(String tokenValue) throws IllegalTokenValidationException {
+
+		if (!this.tokenValue.equals(tokenValue)){
+			throw new IllegalTokenValidationException();
+		}
 
 	}
 }

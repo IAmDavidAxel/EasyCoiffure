@@ -34,6 +34,10 @@ public class PropertyConfiguration {
 			ApplicationConfiguration.mode = properties.getProperty("app.mode");
 			ApplicationConfiguration.serverPort = Integer.parseInt(properties.getProperty("app.server.port"));
 
+			ApplicationConfiguration.tokenExpirationPolicy = properties.getProperty("app.system.token.expiration.policy");
+
+			ApplicationConfiguration.tokenLength = Integer.parseInt(properties.getProperty("user.token.length"));
+
 
 		}
 	}
