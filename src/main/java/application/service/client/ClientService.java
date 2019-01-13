@@ -35,6 +35,5 @@ public class ClientService {
 			Logger.getGlobal().log(Level.SEVERE,e.getMessage());
 			throw  new EntityCreationServiceException(e);
 		}
-
 	}
 }

@@ -1,15 +1,32 @@
-.search-results li {
-	margin-bottom: 1rem;
-}
-
-.search-results li a {
-	display: inline-block;
-	padding: 5px;
-	text-decoration: none;
-}
+body {
+    background-image: url("logo.jpg");
+    background-repeat: repeat-x;
 
 
-.search-results li.gray-out-flight a {
-	text-decoration: line-through;
-	color: gray;
 }
+
+.container-fluid {
+    background-color: #95999c;
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin : -100px 0 0 -150px;
+    width: 500px;
+    height: 300px;
+
+}
+
+.divHome{
+
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin : -100px 0 0 -150px;
+
+}
+
+
+
+

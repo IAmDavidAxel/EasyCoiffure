@@ -19,7 +19,7 @@ import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class EasyCoiffureServer {
+public class  EasyCoiffureServer {
 
 	private static final Logger SERVER_LOGGER = Logger.getLogger(EasyCoiffureServer.class.getName());
 

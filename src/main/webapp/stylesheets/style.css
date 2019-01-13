@@ -1,0 +1,11 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/dist/css/bootstrap-grid.css";
+
+body {
+    padding: 50px;
+    font: 784px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #fd7e14;
+}
